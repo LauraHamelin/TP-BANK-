@@ -1,0 +1,106 @@
+main {
+    padding: 10px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 5px rgb(167, 205, 232);
+}
+  
+#main {
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #000000;
+}
+  
+
+button{
+    display:block;
+    background-color:#f4f7f7;
+    color:cornflowerblue;
+    padding: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+
+}
+
+
+@media screen and (min-width: 398px) and (max-width: 598px){
+    main {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 10px;
+        background-color: #12c5c5;
+        border: 2px solid rgb(252,253,254);
+        border-radius: 5px;
+        width:auto;
+
+        box-shadow: 5px 5px 2px rgb(93,109,115);
+    }
+    
+    nav{
+        color: #12c5c5;
+    }
+
+    #main {
+        text-align: center;
+        color: rgb(25, 28, 24);
+        text-shadow: 2px 2px 4px #fcfafa;
+    }
+    
+    button{
+        border: solid rgb(93, 109, 115) 1px;
+        display:block;
+        background-color:rgb(252, 253, 254);
+        color:#12c5c5;
+        padding: 5px;
+        width: 50%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+        
+    
+
+}
+
+@media screen and (min-width: 598px) and (max-width: 798px){
+    main {
+        font-family:'Courier New', Courier, monospace;
+        padding: 10px;
+        background-color: #c82f2f;
+        border: 2px solid rgb(13, 13, 13);
+        border-radius: 5px;
+        width:auto;
+        text-align: center;
+
+    }
+    
+    nav{
+        color: #c82f2f;
+    }
+
+    #main {
+        text-align: center;
+        color: rgb(251, 254, 250);
+
+    }
+
+    button{
+        border: solid rgb(11, 11, 11) 1px;
+        display:inline-block;
+        background-color:rgb(252, 253, 254);
+        color:#c82f2f;
+        padding: 5px;
+        width: auto;
+        border-radius: 0px;
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+        
+    
+
+}

@@ -1,0 +1,90 @@
+main {
+  padding: 10px;
+  background-color: cornflowerblue;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 5px rgb(167, 205, 232);
+}
+
+h1 {
+  text-align: center;
+  color: aliceblue;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  line-height: 2;
+  width: 60%;
+}
+
+label {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.8;
+}
+
+input{
+  display: block;
+  background-color:#f4f7f7;
+  color:cornflowerblue;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+
+input[type=submit]{
+    width: 60%;
+    margin-top: 30px;
+
+}
+
+
+input[type="radio"],
+label[for="y"],
+label[for="n"] {
+  display: inline-block;
+  width: 50px;
+}
+
+input[type="number"] {
+  width: 50%;
+}
+
+#hidden {
+  visibility: hidden;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: aliceblue;
+  text-align: center;
+  font-size: 1.1rem;
+  background: red;
+  border-radius: 7%;
+}
+
+footer{
+  text-align: center;
+  margin-top: 50px;
+}
+
+button{
+
+  display:inline-block;
+  background-color:#f4f7f7;
+  color:cornflowerblue;
+  padding: 5px;
+  width: 25%;
+  border-radius: 10px;
+  
+}
